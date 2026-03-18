@@ -1,0 +1,102 @@
+---
+title: Changelog
+description: Track the latest updates, new features, and improvements to Sim1.
+---
+
+## Recent Updates
+
+Stay informed about all Sim1 releases. Review the highlights below to understand new capabilities, fixes, and changes that impact your tip rounds and predictions.
+
+<Update label="2024-10-15" description="v1.3.0" tags={["feature", "bugfix"]}>
+## New Features
+
+- Added customizable tip round templates for Bundesliga, Premier League, and World Cup events
+- Introduced real-time scoring updates during live matches
+
+## Bug Fixes
+
+- Fixed scoring accuracy issues when multiple users join mid-round
+- Resolved synchronization problems in shared tip treffpunkts
+
+## Improvements
+
+- Optimized performance for large tip groups (`>50` users)
+- Enhanced mobile responsiveness for better tip entry on devices
+</Update>
+
+<Update label="2024-09-20" description="v1.2.0" tags={["feature", "improvement"]}>
+## New Features
+
+- New invitation system to easily share tip treffpunkts with friends or colleagues
+- Added password recovery and guest login options
+
+## Improvements
+
+- Streamlined registration flow for new users
+- Better error handling for invalid predictions
+
+## Bug Fixes
+
+- Corrected display issues in match result overviews
+- Fixed export functionality for tip round summaries
+</Update>
+
+<Update label="2024-08-10" description="v1.1.0" tags={["feature", "breaking"]}>
+## New Features
+
+- Launched core tipptreff platform with public and private rounds
+- Integrated major leagues including Bundesliga and cups
+
+## Breaking Changes
+
+- Updated prediction format to require exact score for maximum points
+
+## Improvements
+
+- Initial scoring engine with live match integration
+</Update>
+
+## Upcoming Features
+
+Preview what's coming next to Sim1. These enhancements will expand your prediction capabilities.
+
+<Columns cols={3}>
+  <Card title="Advanced Analytics" icon="bar-chart-3" href="#analytics">
+    Detailed stats and leaderboards for tip rounds.
+  </Card>
+  <Card title="Mobile App" icon="smartphone" href="#mobile">
+    Native apps for iOS and Android with push notifications.
+  </Card>
+  <Card title="Tournament Mode" icon="trophy" href="#tournament">
+    Full bracket support for World Cups and qualifiers.
+  </Card>
+</Columns>
+
+<Callout kind="tip">
+Enable notifications in your account settings to get instant alerts about new releases and match updates.
+</Callout>
+
+## How to Update
+
+Follow these steps to ensure you run the latest version of Sim1.
+
+<Steps>
+  <Step title="Check Version" icon="check-circle">
+    Log in to your dashboard at `https://dashboard.example.com` and view your current version.
+  </Step>
+  <Step title="Download Update" icon="download">
+    Visit the releases page and select the latest package.
+  </Step>
+  <Step title="Apply Changes" icon="settings">
+    Restart your tip treffpunkt instance to activate new features.
+  </Step>
+</Steps>
+
+<Expandable title="Migration Guide for v1.3.0" default-open="false">
+If upgrading from v1.2.x, review these changes:
+
+| Change | Impact | Action |
+|--------|--------|--------|
+| New scoring logic | Higher accuracy | Recalibrate existing rounds |
+| Template API updates | Custom templates affected | Update `{templateId}` references |
+</Expandable>
